@@ -10,11 +10,9 @@ Instructions:
 
 
 (If you want to use your own csv file)-->
-*Download google sheet and save it in the project folder as "data_pdf.csv".
-
-*Create url column for storing urls. The file can be accessed with pandas.
-
-*Note: These 2 steps can be skipped as I have included the csv file in this project and you can download it directly.
+* Download google sheet and save it in the project folder as "data_pdf.csv".
+* Create url column for storing urls. The file can be accessed with pandas.
+* Note: These 2 steps can be skipped as I have included the csv file in this project and you can download it directly.
           
 
 
