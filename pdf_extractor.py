@@ -7,9 +7,10 @@ from PIL import Image
 import pytesseract
 from urllib.parse import urlsplit
 import json
-# My custom python codes
-# from link_extractor import LinkExtractor
 
+
+from link_extractor import LinkExtractor
+from pdf2processor import  Pdf2processor
 
 pytesseract.pytesseract.tesseract_cmd=r"C:\Program Files(x86)\Tesseract-OCR\tesseract.exe"
 
