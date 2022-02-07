@@ -40,5 +40,5 @@ json_object=webbased_url+pdfbased_url
 json_object=json.dumps(json_object,indent=3)
 print(json_object)
 
-with open("pdf_data.json", "w") as outfile:
+with open("pdf_extract.json", "w") as outfile:
     outfile.write(json_object)
